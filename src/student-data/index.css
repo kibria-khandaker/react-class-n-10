@@ -1,0 +1,45 @@
+.mainFormDiv {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 1px 20px;
+    min-height: 600px;
+}
+
+.showButton {
+    /* display: inline-block; */
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: not-allowed;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #dcdcdc;
+    border: 1px solid #dcdcdc;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+table>thead>tr>th{
+    font-size: 20px !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+}
+table>tbody>tr>th{
+font-weight: 500 !important;
+}
+table th, .table td {
+    vertical-align: middle !important;
+    border-top: 0px solid #dee2e6 !important;
+    border-bottom: 6px solid #dee2e657 !important;
+}
+
+.vl {
+    border-left: 3px solid #dae0e5;
+    height: 130px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
